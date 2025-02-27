@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.parent_container .increment_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.parent_container .increment_container .increment_btn{
+  background-color: blueviolet;
+  color: white;
+  padding: 10px 12px;
+  font-size: 16px;
+  border: none;
+  transition: all ease-in 0.5s;
+  border-radius: 10px;
+}
