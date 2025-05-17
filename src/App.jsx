@@ -1,14 +1,13 @@
 
 import './index.css'
-import CleanUp from './components/hooks/useEffect/CleanUp'
-import { HowNotToFetchApi } from './components/hooks/useEffect/HowNotToFetch'
+import UseFormStates from './components/hooks/useFormState/UseFormStates'
 
 
 const App = () => {
 
   return (
     <section className='parent_container'>
-      <HowNotToFetchApi/>
+      <UseFormStates/>
     </section>
   )
 }
